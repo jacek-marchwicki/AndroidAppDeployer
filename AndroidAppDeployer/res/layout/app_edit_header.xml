@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:hint="@string/app_edit_name" />
+
+    <RelativeLayout
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_edit_text" >
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_edit_application_icon"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/token_header_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@android:id/icon"
+            android:paddingLeft="4dp"
+            android:text="@string/app_edit_api_token"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorHint" />
+
+        <TextView
+            android:id="@+id/token_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/token_header_text_view"
+            android:layout_below="@+id/token_header_text_view"
+            android:paddingLeft="8dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/guid_header_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/token_text_view"
+            android:layout_toLeftOf="@android:id/icon"
+            android:paddingLeft="4dp"
+            android:text="@string/app_edit_guid"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorHint" />
+
+        <TextView
+            android:id="@+id/guid_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/guid_header_text_view"
+            android:layout_below="@+id/guid_header_text_view"
+            android:paddingLeft="8dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/shared_with_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/data"
+        android:layout_toLeftOf="@android:id/icon"
+        android:paddingLeft="4dp"
+        android:text="@string/app_edit_shared_with"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorHint" />
+
+    <ImageButton
+        android:id="@+id/share_link_recreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/share_link"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/share_link"
+        android:background="@null"
+        android:contentDescription="@string/app_edit_refresh_share_link"
+        android:enabled="false"
+        android:src="@drawable/ic_list_item_download" />
+
+    <EditText
+        android:id="@+id/share_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/shared_with_header"
+        android:layout_toLeftOf="@+id/share_link_recreate"
+        android:enabled="false"
+        android:inputType="textUri" />
+
+</RelativeLayout>

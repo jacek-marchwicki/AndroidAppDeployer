@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">AppDeployer</string>
+
+    <!-- Apps -->
+    <string name="apps_menu_refresh">Refresh</string>
+    <string name="apps_menu_in_progress">In progress</string>
+    <string name="apps_empty">You do not have added apps. Use add button to add more applications.</string>
+    <string name="apps_menu_add">Add applicaion</string>
+    <string name="apps_items_download">Download</string>
+    
+    <!-- AppEdit -->
+    <string name="app_edit_save">Save</string>
+    <string name="app_edit_discard">Discard</string>
+    <string name="app_edit_cancel">Cancel</string>
+    <string name="app_edit_delete">Remove</string>
+    <string name="app_edit_toast_save">App saved</string>
+    <string name="app_edit_dialog_not_valid_title">Not valid</string>
+    <string name="app_edit_dialog_not_valid_message">Data is not correctly provided. Fix fields and try again.</string>
+    <string name="app_edit_dialog_delete_question_title">Delete?</string>
+    <string name="app_edit_dialog_delete_question_message">Are you sure you want to delete this application?</string>
+    <string name="app_edit_dialog_delete_question_remove_button_title">Delete</string>
+    <string name="app_edit_name">Application name</string>
+    <string name="app_edit_name_could_not_be_empty">Name field could not be empty</string>
+    <string name="app_edit_api_token">API Token</string>
+    <string name="app_edit_guid">GUID</string>
+    <string name="app_edit_shared_with">Shared with</string>
+    <string name="app_edit_refresh_share_link">Refresh share link</string>
+    <string name="app_edit_application_icon">Application icon</string>
+    <string name="app_edit_no_token_before_sync">Save and sync application to retrieve token</string>
+    <string name="app_edit_no_guid_before_sync">Wait for sync</string>
+    <string name="app_edit_no_share_link">No share link</string>
+    <string name="app_edit_delete_share">Delete share</string>
+    
+    <!-- App -->
+    <string name="app_title">Application</string>
+    <string name="app_empty">You did not added any app versions. Upload them from your bild system.</string>
+    <string name="app_application_icon">Application icon</string>
+    <string name="app_token_format">Upload token: %1$s</string>
+    <string name="app_guid_format">Upload guid: %1$s</string>
+    <string name="app_item_download">Download</string>
+    <string name="app_version_format">Version: %1$s</string>
+    <string name="app_menu_refresh">Refresh</string>
+    <string name="app_menu_in_progress">In progress</string>
+    <string name="app_menu_edit">Edit</string>
+
+    <!-- Permissions -->
+    <string name="permission_read_content_provider_label">Read AppDeployer data</string>
+    <string name="permission_read_content_provider_description">Allows the app to read you AppDeployer, including your apps urls.</string>
+    <string name="permission_write_content_provider_label">Write AppDeployer data</string>
+    <string name="permission_write_content_provider_description">Allows the app to read you AppDeployer, including creating/deleting apps.</string>
+
+    <!-- Error -->
+    <string name="error_error_occure">Error \"%s\" occure</string>
+    <string name="error_error_refresh">refresh</string>
+    <string name="error_button_invalid_token">reauthorize</string>
+    <string name="error_button_more_info">More info</string>
+    <string name="error_button_login">Login</string>
+    <string name="error_custom">Error occure: %1$s</string>
+    <string name="error_network_connection">Network connection error</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_token_invalid">Token invalid</string>
+    <string name="error_click_to_login">Click heare to login</string>
+    <string name="error_unsupported_device_click_for_more_info">Unsupported device. Click here for more details.</string>
+
+</resources>

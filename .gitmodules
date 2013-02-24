@@ -1,0 +1,12 @@
+[submodule "AndroidActionBarSherlock"]
+	path = AndroidActionBarSherlock
+	url = https://review.appunite.com/androidactionbarsherlock
+[submodule "AndroidAUHTTP"]
+	path = AndroidAUHTTP
+	url = https://review.appunite.com/androidauhttp
+[submodule "AndroidAUSyncer"]
+	path = AndroidAUSyncer
+	url = https://review.appunite.com/androidausyncer.git
+[submodule "AndroidAUContentProvider"]
+	path = AndroidAUContentProvider
+	url = https://review.appunite.com/androidaucontentprovider
